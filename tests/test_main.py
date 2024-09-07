@@ -25,4 +25,4 @@ def test_smoke():
 
     button = driver.find_element(By.ID, "submit")
 
-    assert True, ""
+    assert button.text == "Submit", "Button text is incorrect"
